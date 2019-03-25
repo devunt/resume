@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "sass": "^1.17.3"
-  },
   "scripts": {
     "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.17.3"
   }
 }
