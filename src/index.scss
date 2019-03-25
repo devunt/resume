@@ -3,4 +3,72 @@
 
 body {
   font-family: 'KoPub Dotum', sans-serif;
+  color: #333;
+  line-height: 1.3;
+  word-break: keep-all;
+}
+
+section {
+  margin: 0 auto 4rem auto;
+  width: 600px;
+}
+
+h1 {
+  display: inline-block;
+
+  margin: 0 0 1em 0;
+  padding-bottom: .3rem;
+  border-bottom: 2px solid #333;
+
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+h3 {
+  margin-bottom: 0.7rem;
+
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.subheader {
+  font-size: .9rem;
+}
+
+li {
+  margin-bottom: .7rem;  
+}
+
+.lang {
+  margin-left: .1rem;
+  padding: 3px 5px;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  font-size: 0.65rem;
+  vertical-align: middle;
+}
+
+.content-work {
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+
+  border-left: 1px solid #ccc;
+}
+
+.date {
+  margin-bottom: 0.3rem;
+
+  font-size: .9rem;
+  color: #888;
+  
+  + div, + h2, + h3{
+    margin-top: 0;
+  }
 }
