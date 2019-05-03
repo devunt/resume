@@ -1,31 +1,35 @@
 @import '~normalize.css/normalize';
-@import 'font';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&subset=korean');
 
 body {
-  font-family: 'KoPub Dotum', sans-serif;
   color: #333;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.1rem;
+
   line-height: 1.3;
   word-break: keep-all;
 }
 
 section {
   margin: 0 auto 4rem auto;
-  width: 600px;
+  width: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
 }
 
 h1 {
-  display: inline-block;
-
-  margin: 0 0 1em 0;
-  padding-bottom: .3rem;
+  padding-bottom: .3em;
+  margin-bottom: 1em;
   border-bottom: 2px solid #333;
 
-  font-size: 1.3rem;
+  font-size: 1.2em;
   font-weight: 800;
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.2em;
   font-weight: 500;
 }
 
@@ -41,16 +45,16 @@ h3 {
 }
 
 li {
-  margin-bottom: .7rem;  
+  margin-bottom: .7rem;
 }
 
-.lang {
+.skill {
   margin-left: .1rem;
   padding: 3px 5px;
-  
+
   border: 1px solid #ccc;
   border-radius: 5px;
-  
+
   font-size: 0.65rem;
   vertical-align: middle;
 }
@@ -67,8 +71,8 @@ li {
 
   font-size: .9rem;
   color: #888;
-  
-  + div, + h2, + h3{
+
+  + div, + h2, + h3 {
     margin-top: 0;
   }
 }
