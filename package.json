@@ -4,12 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps --out-dir docs --public-url /resume/"
   },
   "devDependencies": {
-    "sass": "^1.17.3"
+    "cssnano": "^4.1.10",
+    "sass": "^1.23.1"
   }
 }
