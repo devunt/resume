@@ -65,6 +65,15 @@ li {
   }
 }
 
+a {
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .date {
   margin-bottom: 0.3em;
 
