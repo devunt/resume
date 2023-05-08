@@ -1,0 +1,42 @@
+{
+  "name": "@devunt/resume",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "bootstrap": "pnpm install && husky install",
+    "dev": "vite dev",
+    "build": "vite build",
+    "lint": "eslint --max-warnings=0 .",
+    "format": "eslint --fix .",
+    "check": "svelte-check --fail-on-warnings"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^2.0.2",
+    "@sveltejs/kit": "^1.16.2",
+    "@types/node": "^20.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-svelte": "^2.27.3",
+    "gitmoji-cli": "^8.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "prettier-plugin-svelte": "^2.10.0",
+    "sass": "^1.62.1",
+    "svelte": "^3.59.0",
+    "svelte-check": "^3.3.1",
+    "svelte-preprocess": "^5.0.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.5"
+  }
+}

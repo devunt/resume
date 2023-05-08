@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "antfu.unocss",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "svelte.svelte-vscode"
+  ]
+}
