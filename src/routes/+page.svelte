@@ -23,10 +23,51 @@
 <section>
   <h1>이력</h1>
   <div class="exp">
-    <div class="date">2022.01-</div>
+    <div class="date">2023.08-</div>
+    <h2>펜슬컴퍼니 PENXLE COMPANY</h2>
+    <div class="exp">
+      <div class="date">2023.08-</div>
+      <h3>프로덕트 엔지니어 / CEO</h3>
+      <p>
+        동인 창작 서비스 Glyph를 운영하는 주식회사 펜슬컴퍼니를 창업
+        <br />
+        프로덕트 엔지니어이자 CEO로서 전체 코드와 인프라를 구축하고 운영하는 등 DevOps 업무
+        <br />
+        회사 전체의 기획, 디자인, 개발, 운영, 마케팅, CS, HR 등 모든 과정에 깊게
+        관여
+      </p>
+      <ul>
+        <li>
+          Glyph 서비스 에디터 개발
+          <span class="skill">TypeScript</span>
+          <span class="skill">SvelteKit</span>
+          <span class="skill">Tiptap</span>
+        </li>
+        <li>
+          Glyph 서비스 프론트엔드 및 백엔드 개발
+          <span class="skill">TypeScript</span>
+          <span class="skill">SvelteKit</span>
+          <span class="skill">GraphQL</span>
+        <li>
+          사내에 필요한 각종 툴링 및 라이브러리 개발
+          <span class="skill">TypeScript</span>
+          <span class="skill">Vite</span>
+          <span class="skill">SvelteKit</span>
+        </li>
+        <li>
+          회사 전체 AWS 및 쿠버네티스 인프라 운영 및 관리, 장애 대응
+          <span class="skill">AWS</span>
+          <span class="skill">Kubernetes</span>
+          <span class="skill">Datadog</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="exp">
+    <div class="date">2022.01-2023.07</div>
     <h2>쿠키플레이스 COOKIEPLACE</h2>
     <div class="exp">
-      <div class="date">2022.01-</div>
+      <div class="date">2022.01-2023.07</div>
       <h3>CTO</h3>
       <p>
         커미션 중개 서비스 CREPE를 운영하는 주식회사 쿠키플레이스를 창업
