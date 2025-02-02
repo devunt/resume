@@ -1,5 +1,7 @@
-<slot />
+<script lang="ts">
+  import '../app.css';
 
-<style global lang="scss">
-  @import '../styles/index.scss';
-</style>
+  let { children } = $props();
+</script>
+
+{@render children()}

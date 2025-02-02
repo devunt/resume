@@ -1,7 +1,9 @@
 .DS_Store
-node_modules
 
-/.svelte-kit
+node_modules/
+dist/
 
-/vite.config.js.timestamp-*
-/vite.config.ts.timestamp-*
+.svelte-kit/
+styled-system/
+
+vite.config.ts.timestamp-*
