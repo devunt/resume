@@ -18,8 +18,6 @@ export default {
         universal: 'src/hooks/universal',
       },
     },
-    paths: { relative: false },
     output: { preloadStrategy: 'preload-mjs' },
-    version: { pollInterval: 60 * 1000 },
   },
 };
