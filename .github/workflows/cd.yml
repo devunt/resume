@@ -20,13 +20,14 @@ jobs:
 
       - name: Build application
         run: |
+          bun run codegen
           bun run build
 
       - name: Upload artifacts
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist/'
+          path: 'build/'
 
   deploy:
     name: Deploy
