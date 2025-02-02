@@ -19,6 +19,8 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Build application
+        env:
+          NODE_ENV: production
         run: |
           bun run codegen
           bun run build

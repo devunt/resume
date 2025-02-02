@@ -18,6 +18,7 @@ export default {
         universal: 'src/hooks/universal',
       },
     },
+    paths: { base: '/resume' },
     output: { preloadStrategy: 'preload-mjs' },
   },
 };
