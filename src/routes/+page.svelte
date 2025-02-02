@@ -141,6 +141,7 @@
             <Item content="Airtake 서비스 프론트엔드 및 백엔드 개발" skills={['TypeScript', 'SvelteKit', 'GraphQL', 'ClickHouse']} />
             <Item content="Glyph 및 Readable 서비스 에디터 개발" skills={['TypeScript', 'SvelteKit', 'Tiptap']} />
             <Item content="Glyph 및 Readable 서비스 프론트엔드 및 백엔드 개발" skills={['TypeScript', 'SvelteKit', 'GraphQL']} />
+            <Item content="Glyph 모바일 애플리케이션 개발" skills={['Dart', 'Flutter']} />
             <Item content="사내에 필요한 각종 툴링 및 라이브러리 개발" skills={['TypeScript', 'Vite', 'SvelteKit']} />
             <Item content="회사 전체 AWS 및 쿠버네티스 인프라 운영 및 관리, 장애 대응" skills={['AWS', 'Kubernetes', 'Datadog']} />
           </Experience>
