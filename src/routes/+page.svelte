@@ -162,7 +162,7 @@
         </Experience>
 
         <Experience date="2021.06-2022.07" title="두나무 DUNAMU">
-          <Experience date="2022.06-2022.07" title="업비트 플랫폼팀">
+          <Experience date="2021.06-2022.07" title="업비트 플랫폼팀">
             {#snippet description()}
               두나무의 전체 인프라를 운영, 관리하는 등 DevOps 업무
               <br />
