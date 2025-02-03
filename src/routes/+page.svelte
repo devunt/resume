@@ -170,7 +170,7 @@
               두나무의 업비트 및 증권플러스 등 관련 서비스의 백엔드를 개발, 운영하는 등 DevOps 업무
             {/snippet}
 
-            <Item content="회사 전체 AWS 및 쿠버네티스 인프라 운영 및 관리, 장애 대응" skills={['AWS', 'Kubernetes']} />
+            <Item content="AWS 및 쿠버네티스 인프라 운영 및 관리, 장애 대응" skills={['AWS', 'Kubernetes']} />
             <Item content="국내/해외 은행 입출금 연동 MSA 개발" skills={['Python', 'Django']} />
             <Item content="카카오톡, PASS 등 본인인증 연동 서비스 개발" skills={['Kotlin', 'Spring Boot']} />
           </Experience>
