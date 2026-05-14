@@ -113,13 +113,13 @@
       </div>
 
       <div class={css({ marginTop: '16px' })}>
-        <h3 class={css({ fontSize: '20px', fontWeight: 'bold' })}>동시 편집 가능한 위지윅 에디터</h3>
+        <h3 class={css({ fontSize: '20px', fontWeight: 'bold' })}>크로스 플랫폼 위지윅 에디터</h3>
 
         <p class={css({ marginTop: '2px', fontSize: '16px', fontWeight: 'medium' })}>
-          세번의 서비스에서 ProseMirror 및 Tiptap 기반의 위지윅 에디터를 개발했습니다. 세 서비스 모두 Y.js를 이용한 CRDT 기반의 동시 편집을
-          구현했으며, 정적인 콘텐츠 뿐만 아니라 이미지, 외부 콘텐츠 임베드, 동적 스크립트 등 기존 JS 생태계 코드와 호환이 가능하도록
-          설계했습니다. 특히 JS 기반의 웹과 Flutter 기반의 앱에서 웹뷰로 인한 성능 하락 없이 동일한 사용자 경험을 제공하기 위해 ProseMirror
-          Flutter 네이티브 렌더러 바인딩을 직접 개발하기도 했습니다.
+          여러 서비스에서 ProseMirror 및 Tiptap 기반의 위지윅 에디터를 개발하며 CRDT 기반의 동시 편집과 다양한 콘텐츠 임베드를 구현해왔습니다.
+          이후 기존 JS 기반 에디터 스택이 가진 플랫폼별 성능 격차와 동작 차이의 한계를 극복하기 위해, Rust로 자체 에디터 엔진을 처음부터 새로
+          설계해 개발하고 있습니다. 동일한 코어 엔진을 웹에서는 WebAssembly로, 모바일과 데스크탑에서는 Kotlin Multiplatform 및 Swift FFI 바인딩을
+          통해 임베드하여 모든 플랫폼에서 일관된 사용자 경험과 네이티브 수준의 성능을 동시에 달성하는 것을 목표로 하고 있습니다.
         </p>
       </div>
     </section>
@@ -138,9 +138,14 @@
               회사 전체의 기획, 디자인, 개발, 운영, 마케팅, CS, HR 등 모든 과정에 깊게 관여
             {/snippet}
 
-            <Item content="타이피 에디터 개발" skills={['TypeScript', 'SvelteKit', 'Tiptap']} />
-            <Item content="타이피 프론트엔드 및 백엔드 개발" skills={['TypeScript', 'SvelteKit', 'GraphQL']} />
-            <Item content="타이피 모바일 애플리케이션 개발" skills={['Dart', 'Flutter', 'Swift', 'Kotlin']} />
+            <Item content="타이피 크로스 플랫폼 에디터 엔진 개발" skills={['Rust', 'WebAssembly', 'Kotlin', 'Swift']} />
+            <Item content="타이피 웹 프론트엔드 및 백엔드 개발" skills={['TypeScript', 'SvelteKit', 'GraphQL']} />
+            <Item
+              content="타이피 모바일 애플리케이션 개발"
+              skills={['Kotlin Multiplatform', 'Compose Multiplatform', 'Swift']}
+            />
+            <Item content="타이피 데스크탑 애플리케이션 개발" skills={['Rust', 'TypeScript']} />
+            <Item content="타이피 AI 기반 글쓰기 피드백 기능 개발" skills={['TypeScript', 'SvelteKit']} />
             <Item content="사내에 필요한 각종 툴링 및 라이브러리 개발" skills={['TypeScript', 'Vite', 'SvelteKit']} />
             <Item content="회사 전체 AWS 및 쿠버네티스 인프라 운영 및 관리, 장애 대응" skills={['AWS', 'Kubernetes', 'Datadog']} />
             <Item
